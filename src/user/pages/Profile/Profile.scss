@@ -1,0 +1,45 @@
+.profile {
+    padding: 20px;
+
+
+    h2 {
+        margin-bottom: 15px;
+    }
+    color: #000;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        thead {
+            background-color: #f2f2f2;
+
+            th {
+                padding: 10px;
+                border: 1px solid #ddd;
+                text-align: left;
+            }
+        }
+
+        tbody {
+            tr {
+                &:nth-of-type(odd) {
+                    background-color: #f9f9f9;
+                }
+
+                &:hover {
+                    background-color: #f1f1f1;
+                }
+
+                td {
+                    padding: 10px;
+                    border: 1px solid #ddd;
+                }
+            }
+        }
+    }
+
+    .header {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+}

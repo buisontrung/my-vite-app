@@ -1,0 +1,316 @@
+@keyframes sidebar-container--fade-in--To5-l {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translateY(-5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.sidebar-container--content--V-bFw.sidebar-container--fixed--1Gxn0 {
+    position: fixed;
+    top: -192px;
+    z-index: 3;
+    opacity: 0;
+    animation: sidebar-container--fade-in--To5-l 300ms linear 250ms forwards;
+}
+
+
+.sidebar-container--content--V-bFw {
+    position: absolute;
+    display: block;
+    top: 10rem;
+    right: 100px;
+    width: 21.5rem;
+    z-index: 1;
+    border-bottom: 1px solid #d1d7dc;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
+    background-color: #fff;
+
+    .sidebar-container--content-group---4Fh5 {
+        .sidebar-container--introduction-asset--CD5Yt {
+            width: 100%;
+
+            .intro-asset--wrapper {
+
+
+                .intro-asset--asset--uXC50 {
+
+                    background-color: #fff;
+
+                    button {
+                        border: 0;
+                        color: #fff;
+                        cursor: pointer;
+                        display: block;
+                        height: 100%;
+                        width: 100%;
+
+
+                        img {
+                            width: 340px;
+
+
+                        }
+
+                        ;
+                    }
+                }
+
+            }
+        }
+
+        .row {
+
+            color: #333;
+
+            .price-45 {
+
+                .talented-price {
+                    font-weight: 700;
+                }
+
+                gap:10px;
+                font-size: 24px;
+
+
+            }
+
+            .buy-box--buy-box-item--wT5bJ {
+
+                .ud-btn-large {
+                    width: 100%;
+                    height: 3.8rem;
+                    background-color: #fff;
+                    border: 0.5px solid #333;
+                }
+
+            }
+
+            .buy-box--add-to-cart-button-wrapper--focmP {
+                display: flex;
+                align-items: center;
+                margin-top: 2rem;
+
+                .ud-btn-large {
+                    background-color: #a435f0;
+                    color: #fff;
+                    font-weight: 600;
+                }
+            }
+
+            .buy-box--buy-button--m373K {
+
+                margin-top: 0.75rem;
+
+                .ud-btn-large {
+
+                    color: #333;
+                    font-weight: 600;
+                }
+
+                margin-bottom: 0.75rem;
+            }
+
+            .money-back-guarantee--money-back-guarantee--cDdpL {
+                margin-bottom: .8rem;
+
+                .money-back {
+                    display: block;
+                    margin-top: 0.5rem;
+                    text-align: center;
+                    font-size: 0.7rem;
+                    font-weight: 100;
+                }
+            }
+
+            .generic-purchase-section--local-incentive--4i-xF {
+                .ud-heading-md {
+                    font-family: var(--font-stack-heading);
+                    font-weight: 700;
+                    line-height: 1.2;
+                    letter-spacing: 0;
+                    font-size: 1.1rem;
+                }
+
+                .incentives--header--yVAQ {
+                    margin-bottom: 0.5rem;
+                }
+
+                .ud-unstyled-list {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+
+                    li {
+                        margin-bottom: 0.3rem;
+
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.topics {
+
+    .topic {
+        color: #1A1A1A;
+        border: 1px solid #1A1A1A;
+        border-radius: 25px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(221, 220, 220);
+        }
+    }
+}
+
+.detailcourse {
+    ul{
+        padding: 0 ;
+        color: #1A1A1A;
+    }
+    margin-bottom: 5rem;
+    .course-content {
+        border: 1px solid #d1cece;
+        color: #1A1A1A;
+        padding: 1rem;
+    }
+
+    @media (min-width: 1200px) {
+
+        width: 40rem;
+        
+
+    }
+    h2{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    
+    .ud-btn-ghost{
+        border: none;
+        gap: 0.25rem;
+        span{
+            color: #5022c3;
+            font-weight: 600;
+        }
+        img{
+            width: 15px;
+            height: 100%;
+        }
+    }
+    
+
+    .what-you-will-learn--objectives-list-two-column-layout--ED4as {
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: none;
+        margin: none;
+        
+       li{
+
+        flex: 0 0 48%; /* Mỗi phần tử `li` chiếm 48% chiều rộng của dòng (2 phần tử mỗi dòng) */
+        box-sizing: border-box;
+       }
+            
+            
+
+
+        .ud-block-list {
+            
+
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+            height: auto;
+            text-align: left;
+            letter-spacing: normal;
+            white-space: normal;
+            margin-bottom: 0.5rem;
+        }
+        span{
+            font-size: 0.9rem;
+        }
+        img {
+            width: 15px;
+            height: 100%;
+            margin-top: 5px;
+        }
+
+    }
+}
+
+.ud-block-list-item {
+    gap: 1.2rem;
+    display: flex;
+}
+.curriculum--curriculum-sub-header--QqY6d{
+    display: flex;
+    justify-content: space-between;
+    span{
+        color: #1A1A1A;
+    }
+}
+.section--panel--qYPjj {
+    border-left: 1px  solid #d1d7dc;
+    border-right: 1px solid #d1d7dc;
+   background-color: #f0f0f0;
+    border-top: 1px solid #d1d7dc;
+    
+    button{
+        width: 100%;
+        border: none;
+            
+        img{
+            width: 20px;
+            height: auto;
+            margin-right: 0.5rem;
+        }
+    }
+
+}
+.section--panel--qYPjj.ud-accordion-panel-toggler{
+    padding: 1.2rem 1.2rem;
+}
+.ud-accordion-panel-title{
+    display: flex;
+    width: 100%;
+}
+.section--section-title--svpHP{
+    flex: 0 0 60%;
+    text-align: start;
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+.ud-text-sm{
+    
+    flex: 0 0 35%;
+    margin-left: 1.5rem;
+    text-align: end;
+    font-size: 0.9rem;
+    color: #1A1A1A;
+}
+.curriculum--curriculum-show-more--hf{
+    border: 1px solid #1A1A1A;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-weight: 600;
+    &:hover{
+        background-color: #d1cece;
+    }
+}
+

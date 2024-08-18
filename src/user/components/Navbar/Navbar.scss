@@ -1,0 +1,31 @@
+@import '../../../variable.scss';
+.navbar {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #d1d7dc;
+    background-color: white; 
+    z-index: 1;
+    .container-fluid{
+         
+        .navbar-collapse{
+            .navbar-auth{
+                
+                li{
+                    border: 2px solid ;
+                    border-radius: 5px;
+                    background-color: #ffb606;
+                    margin: 5px;
+                }
+            }
+            
+        }
+    }
+    
+}

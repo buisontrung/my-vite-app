@@ -1,0 +1,42 @@
+.hocbai{
+    color: #333;
+    display: flex;
+    justify-content: space-around;
+    .card-body{
+        flex: 0 0 20%;
+        max-height:500px ;
+        min-height: 300px;
+        text-align: center;
+        background-color: white;
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        border-top: 3px solid;
+        border-radius: 5px;
+        width: 200px;
+        padding: 20px;
+        margin: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        text-align: center;
+        h2{
+            min-height: 50px;
+        }
+        .class-item{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            h3{
+                &:hover {
+                    background-color: #b4b3b3;
+                }
+            }
+
+            &:nth-child(odd) {
+                background-color: #f9f9f9; /* Light gray color for odd items */
+            }
+
+            &:nth-child(even) {
+                background-color: #ffffff; /* White color for even items */
+            }
+        }
+    }
+}

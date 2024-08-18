@@ -1,0 +1,23 @@
+.home-container{
+    width: 100%;
+    .categories{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        ul{
+            display: flex;
+            gap: 20px;
+            .item{
+                color: black ;
+                list-style: none;
+                font-size: 20px;
+                flex: 1 1 auto;
+                :hover{
+                    color: red;
+                }
+            }
+        }
+    }
+}

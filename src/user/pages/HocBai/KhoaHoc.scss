@@ -1,0 +1,21 @@
+.khoahoc{
+    color: #333;
+    display: flex;
+    .subject{
+        margin-left: 5%;
+    .subject-list{
+        
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+        .subject-item{
+        
+            .subject-img{
+                width: 300px;
+                height: auto;
+            }
+        }
+        
+    }
+}
+}

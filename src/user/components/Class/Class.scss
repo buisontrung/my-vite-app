@@ -1,0 +1,41 @@
+.hero_box_col {
+    
+    
+     // Padding cho cột
+     padding: 10px;
+     
+     
+img{
+    width: 70px;
+    margin-right: 10px;
+}
+
+.hero_box {
+    &:hover{
+
+        background-color: #ffb606;
+    }
+    height: 161px;
+    background: #1a1a1a;
+    padding-left: 30px;
+    cursor: pointer;
+    color: #fff;
+    .hero_box_content {
+        h2.hero_box_title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        a.hero_box_link {
+            color: #a5a5a5;
+            text-decoration: none;
+            font-weight: bold;
+            &:hover{
+
+                color: #1a1a1a;
+            }
+        }
+        
+    }
+}
+}

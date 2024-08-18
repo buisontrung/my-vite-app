@@ -1,0 +1,41 @@
+.services{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .container{
+        .section_title h1 {
+            display: block;
+            color: #1a1a1a;
+            font-weight: 500;
+            padding-top: 24px;
+
+        }
+        .services_row .icon_container img {
+            height: 100%;
+            width: 41px;
+        }
+        .services_row{
+            .service_item h3 {
+                font-family: 'Roboto', sans-serif;
+                font-size: 22px;
+                font-weight: 500;
+                color: #1a1a1a;
+                margin-bottom: 13px;
+            }
+            .service_item p {
+                font-size: 14px;
+                font-weight: 500;
+                color: #a5a5a5;
+                max-width: 100%;
+                margin-bottom: 0px;
+            }
+        }
+
+    }
+    
+    h3{
+        color: #1a1a1a;
+    }
+    p{
+        color: #a5a5a5;
+    }
+}

@@ -1,0 +1,41 @@
+.topBox{
+    h1{
+        margin-bottom: 20px;
+    }
+    .listStudent{
+        .listItem{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            .student{
+                display: flex;
+                gap: 10px;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                .userTexts{
+                    display: flex;
+                    flex-direction: column;
+                    gap:5px;
+                    .userName{
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                    .email{
+                        font-size: 12px;
+                    }
+                }
+                
+            };
+            .amount{
+                font-weight: 500;
+               
+            }
+
+        }
+    }
+}

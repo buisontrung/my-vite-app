@@ -1,0 +1,26 @@
+.footer_user{
+    padding-top: 50px;
+    background-color: #1a1a1a; 
+    h5{
+        color: #fff;
+    }
+    ul{
+        li{
+            a{
+                color: #a5a5a5;
+                &:hover{
+                    color: #ffb606;
+                }
+            }
+
+        }
+    }
+    input{
+        border:  none;
+    }
+    button{
+        background-color: #ffb606;
+        border:  none;
+    }
+}
+    

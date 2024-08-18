@@ -1,0 +1,50 @@
+.news-container{
+    background-color: black;
+    .img-fluid {
+        max-width: 100%;
+        height: 728px;
+    }
+    
+}
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+.user{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    img{
+
+        border: 1px solid #333;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;         
+        
+    }
+}
+.title-news{
+    margin-top: 1rem;
+}
+.container-fluid {
+    padding: 0;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+ 
+  .information-post {
+    overflow-y: auto;
+    max-height: 728px;
+}
+ 
+
